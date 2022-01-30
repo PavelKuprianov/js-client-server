@@ -1,0 +1,73 @@
+.blog__title {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.blog__link {
+  padding: 3px 20px 3px 50px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.blog__link:hover {
+  color: #0d6efd;
+}
+
+.page-active {
+  font-weight: 900;
+  color: #1A56B0;
+}
+
+#post-app {
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.back-link {
+  position: absolute;
+  top: 600px;
+  left: 10px;
+  width: 180px;
+  padding-left: 45px;
+  font-size: 14px;
+  background-image: url('img/102.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.post-title {
+  margin-bottom: 50px;
+  text-align: center;
+  color: #1A56B0;
+}
+
+.post-text {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+}
+
+.comment-block {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000
+}
+
+.comment-content {
+  padding-top: 20px;
+  list-style: none;
+}
+
+.comment-name {
+  padding-left: 30px;
+  font-size: 1rem;
+  background-image: url('img/generic-avatar.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.comment-text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529;
+}
